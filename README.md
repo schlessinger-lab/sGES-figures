@@ -102,3 +102,7 @@ Use the following code to install the R dependancies. Python tensorflow will als
 `if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")` 
 
 `BiocManager::install("rhdf5", "iheatmapr")`  
+
+#### Contact 
+
+For any issues relating to this repository contact the corresponding authors: rayees(dot)rahman(at)icahn(dot)mssm(dot)edu or avner(dot)schlessinger(at)mssm(dot)edu 
