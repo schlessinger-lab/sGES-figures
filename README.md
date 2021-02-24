@@ -16,7 +16,37 @@ This code has been validated to run on the following platforms: Ubuntu 20.04 LTS
 
 Due to the size of the generated data (>4GB), it is not included in this repo, but is available to download from here: http://iyengarlab.org/dtoxs/PNAS-sGES.tar.bz2 
 
-Please extract the files and place folder into `figures/data/` 
+Please extract the files and place folder into `figures/data/`. The directory structure should be as follows: 
+``` 
+data/
+├── TISSUES-harmonizome
+│   ├── inte-gl
+│   ├── results
+│   └── rna-gl
+├── archs
+│   ├── ARCHS4_r
+│   ├── embeddings
+│   └── structural-signatures
+│       └── formatted
+├── dtox
+├── gtex
+│   ├── stable_signature_data
+│   │   ├── selected_gene_lists
+│   │   └── stable_signature_data_old
+│   └── structural-signatures
+├── humanprotatlas
+│   ├── genelists
+│   ├── raw
+│   └── results
+├── l1000
+├── msigdb
+│   ├── genelists
+│   ├── raw-gmt
+│   └── results
+│       └── ss_output
+├── reconstruction_errors
+└── rocs
+```
 
 ### Directories
 
@@ -39,6 +69,8 @@ Please extract the files and place folder into `figures/data/`
 `scripts/autoencoder` scripts to train autoencoder models and output reconstruction errors for test data from GES or sGES data
 
 `utilities/` simple shell scripts to run strucutural signatures on GTEX and ARCHS4 data  
+
+`figures/data` generated data that is analyzed by the scripts 
 
 
 ### Dependancies 
