@@ -1,7 +1,8 @@
 This is a directory that houses data used to generate figures. Due to the size of the generated data (>4GB), it is not included in this repo, but is available here: http://iyengarlab.org/dtoxs/PNAS-sGES.tar.bz2
 
 After extraction of the downloaded data, this directory should have the following structure: 
-``` data/
+``` 
+data/
 ├── TISSUES-harmonizome
 │   ├── inte-gl
 │   ├── results
