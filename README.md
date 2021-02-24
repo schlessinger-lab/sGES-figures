@@ -12,7 +12,8 @@ This code has been validated to run on the following platforms: Ubuntu 20.04 LTS
 
 ### Data directory 
 
-**All of the code references a `data/` directory** This is a directory that houses data used to generate figures. Due to the size of the generated data (>4GB), it is not included in this repo, but is available upon request. 
+**All of the code references a `figures/data/` directory** This is a directory that houses data used to generate figures. Due to the size of the generated data (>4GB), it is not included in this repo, but is available to download from here: http://iyengarlab.org/dtoxs/PNAS-sGES.tar.bz2 
+Please extract the files and place folder into `figures/data/` 
 
 ### Directories
 
