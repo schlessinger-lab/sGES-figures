@@ -64,8 +64,6 @@ data/
 
 `figures/figure-7/` code for figures 7A-C 
 
-`figures/sfigures/` code for supplemental figures 1,5,7,18
-
 `scripts/autoencoder` scripts to train autoencoder models and output reconstruction errors for test data from GES or sGES data
 
 `utilities/` simple shell scripts to run strucutural signatures on GTEX and ARCHS4 data  
