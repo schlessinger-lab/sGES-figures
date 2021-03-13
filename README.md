@@ -1,5 +1,5 @@
 ## Code for generating figures in "Protein structure-based gene expression signatures" 
-Rahman, R et al. 2021, PNAS
+Rahman, R et al. 2021
 
 ### Instructions 
 To generate figures from the article you can run the scripts found in each directory during an interactive R session, where each line of the script is sent to the R terminal. 
